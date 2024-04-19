@@ -14,9 +14,10 @@ if(obj_PCunicorn.isFishing)
 	}
 	if(currentProgress >= maxProgress)
 	{
+		//obj_AnimFishingSpot.cooldown = true;
+		instance_nearest(obj_PCunicorn.x,obj_PCunicorn.y, obj_AnimFishingSpot).cooldown = true;
 		fishingAlarm = false;
 		obj_fishingQTEManager.endFishing = true;
-		alarm[0] = -1;
 		// give the reward to the player
 		if(obj_fishingQTEManager.currentFish == "GoldFish")
 		{
@@ -39,7 +40,7 @@ if(obj_PCunicorn.isFishing)
 else if(obj_PCunicorn.isFishing == false)
 {
 	currentProgress = minProgress;
-	
+	alarm[0] = -1;
 }
 
 

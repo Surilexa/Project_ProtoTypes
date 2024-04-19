@@ -12,5 +12,7 @@ if(currentProgress < maxProgress)
 	obj_fishingQTEManager.alarm[0] = 60 * 3;
 	fishGotAway = true;
 	show_debug_message(fishGotAway)
+	//obj_AnimFishingSpot.cooldown = true;
+	instance_nearest(obj_PCunicorn.x,obj_PCunicorn.y, obj_AnimFishingSpot).cooldown = true;
 }
 fishingAlarm = false;

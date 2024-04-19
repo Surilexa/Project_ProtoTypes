@@ -266,6 +266,7 @@
     {"name":"obj_MerchantWindowClose","order":2,"path":"objects/obj_MerchantWindowClose/obj_MerchantWindowClose.yy",},
     {"name":"obj_oldManNPC","order":13,"path":"objects/obj_oldManNPC/obj_oldManNPC.yy",},
     {"name":"spr_cloud5","order":11,"path":"sprites/spr_cloud5/spr_cloud5.yy",},
+    {"name":"spr_waterCircle","order":1,"path":"sprites/spr_waterCircle/spr_waterCircle.yy",},
     {"name":"spr_transferBatteryButton","order":5,"path":"sprites/spr_transferBatteryButton/spr_transferBatteryButton.yy",},
     {"name":"obj_GoldCostApple","order":7,"path":"objects/obj_GoldCostApple/obj_GoldCostApple.yy",},
     {"name":"obj_fuelCoalRobot","order":14,"path":"objects/obj_fuelCoalRobot/obj_fuelCoalRobot.yy",},

@@ -20,9 +20,11 @@ if(selectFish)
 //reset the fishing QTE and end the player fishing event
 if(endFishing)
 {
-	obj_fishingProgressBar.alarm[0] = -1;
-	obj_movingBar.activateFishing = false;
+	alarm[1] = -1
 	endFishing = false;
+	obj_fishingProgressBar.alarm[0] = -1;
+	obj_fishingProgressBar.fishingAlarm = false;
+	obj_movingBar.activateFishing = false;
 	obj_PCunicorn.isFishing = false;
 	obj_movingBar.visible = false
 	obj_randomFishingMovement.visible = false;

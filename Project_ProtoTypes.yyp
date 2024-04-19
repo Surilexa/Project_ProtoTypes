@@ -305,6 +305,7 @@
     {"id":{"name":"obj_MerchantWindowClose","path":"objects/obj_MerchantWindowClose/obj_MerchantWindowClose.yy",},},
     {"id":{"name":"obj_oldManNPC","path":"objects/obj_oldManNPC/obj_oldManNPC.yy",},},
     {"id":{"name":"spr_cloud5","path":"sprites/spr_cloud5/spr_cloud5.yy",},},
+    {"id":{"name":"spr_waterCircle","path":"sprites/spr_waterCircle/spr_waterCircle.yy",},},
     {"id":{"name":"spr_transferBatteryButton","path":"sprites/spr_transferBatteryButton/spr_transferBatteryButton.yy",},},
     {"id":{"name":"obj_GoldCostApple","path":"objects/obj_GoldCostApple/obj_GoldCostApple.yy",},},
     {"id":{"name":"obj_fuelCoalRobot","path":"objects/obj_fuelCoalRobot/obj_fuelCoalRobot.yy",},},

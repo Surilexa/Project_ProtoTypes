@@ -18,3 +18,4 @@ fishGotAway = false;
 fishingAlarm = false;
 
 visible = false
+
