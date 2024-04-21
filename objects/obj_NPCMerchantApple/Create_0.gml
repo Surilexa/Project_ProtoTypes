@@ -17,6 +17,8 @@ image_index = 1;
 
 merchantWindow = false;
 
-instance_deactivate_layer(layer_get_id("MerchantWindowAppleBack"));
-instance_deactivate_layer(layer_get_id("MerchantWindowApple"));
+instance_deactivate_layer(layer_get_id("AppleMerchant_window"));
+instance_deactivate_layer(layer_get_id("AppleBack"));
+
+isShopBuilt = true;
 

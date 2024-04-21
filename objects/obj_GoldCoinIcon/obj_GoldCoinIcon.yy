@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "MerchantBuy",
-    "path": "folders/Objects/TopDownGame2/MerchantBuy.yy",
+    "name": "TopDownGame2",
+    "path": "folders/Objects/TopDownGame2.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -4,13 +4,10 @@
 if(isFishing)
 {
 	image_index = 1;
-	isBusy = true;
 }
-else
+else if (!isFishing)
 {
-	
 	image_index = 0;
-	isBusy = false;
 }
 key_int1 = mouse_check_button_pressed(mb_right);
 

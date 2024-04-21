@@ -14,3 +14,6 @@ if (obj_hungerBar.hunger < (.2 * obj_hungerBar.maxHunger))
 }
 
 //show_debug_message(camera_get_view_x(view_get_camera(0)))
+
+centerOfScreenY = camera_get_view_y(view_get_camera(0))+view_get_hport(view_get_camera(0))/2;
+centerOfScreenX = camera_get_view_x(view_get_camera(0))+view_get_wport(view_get_camera(0))/2;

@@ -17,7 +17,7 @@ doOnce = false;
 
 //selecting fish variables
 rarityOfFish = 0;
-typeOfFish = ["GoldFish", "RainbowTrout", "CatFish", "Shark"];
+typeOfFish = ["GoldFish", "Carp", "CatFish"];
 currentFish = 0;
 fishSpeed = rarityOfFish;
 

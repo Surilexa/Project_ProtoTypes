@@ -11,7 +11,7 @@ if(selectFish)
 	}
 	else if (fishingBuff)
 	{
-		rarityOfFish = random_range(1,3);
+		rarityOfFish = random_range(1,2);
 	}
 	currentFish = typeOfFish[rarityOfFish];
 	fishSpeed = rarityOfFish;
@@ -30,6 +30,7 @@ if(endFishing)
 	obj_randomFishingMovement.visible = false;
 	obj_fishingProgressBar.visible = false;
 	obj_fishingBorderReel.visible = false;
+	obj_PCunicorn.isBusy = false;
 }
 if(startFishing)
 {
@@ -39,7 +40,8 @@ if(startFishing)
 	selectFish = true;
 	
 	//move the fish to the correct p
-	obj_randomFishingMovement.y =  view_get_hport(0)/2 + irandom_range(-100,100);
+	obj_randomFishingMovement.y =  obj_PCunicorn.centerOfScreenY+ irandom_range(-68,122);
 	alarm[1] = 60
 	delay = true;
+	obj_PCunicorn.isBusy = true;
 }

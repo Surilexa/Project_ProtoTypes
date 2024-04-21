@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 randomize();
-
 //after fishing is done logic
 
 fishingRoll = irandom_range(1, 10);

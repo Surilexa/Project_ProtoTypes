@@ -2,11 +2,12 @@
 // You can write your code in this editor
 if(obj_PCunicorn.isFishing)
 {
+	ymaxpos = obj_PCunicorn.centerOfScreenY+104;
+	yminpos = obj_PCunicorn.centerOfScreenY-54;
 	if(activateFishing == false)
 	{
-		//gets the difference between view port center and player and gets the middle between them
-		x = camera_get_view_x(view_get_camera(0)) +400;
-		y = camera_get_view_y(view_get_camera(0)) +300;
+		x = obj_PCunicorn.centerOfScreenX;
+		y = obj_PCunicorn.centerOfScreenY;
 		baseXPos = x;
 		baseYPos = y;
 		

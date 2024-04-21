@@ -7,7 +7,7 @@ image_speed = .4;
 
 turnOn = true;
 
-cooldownTime = 4 * 60;
+cooldownTime = 30 * 60;
 
 cooldown = false;
 

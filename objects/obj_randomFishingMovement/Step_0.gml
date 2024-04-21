@@ -3,6 +3,7 @@
 randomize();
 if(!obj_PCunicorn.isFishing)
 {
+	y = obj_PCunicorn.centerOfScreenY;
 	targetYPos = y;
 }
 //always move to the target y pos

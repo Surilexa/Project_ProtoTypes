@@ -23,17 +23,13 @@ if(obj_PCunicorn.isFishing)
 		{
 			obj_PCunicorn.goldFish++;
 		}
-		else if (obj_fishingQTEManager.currentFish == "RainbowTrout")
+		else if (obj_fishingQTEManager.currentFish == "Carp")
 		{
-			obj_PCunicorn.rainbowTrout++;
+			obj_PCunicorn.carp++;
 		}
 		else if (obj_fishingQTEManager.currentFish == "CatFish")
 		{
 			obj_PCunicorn.catfish++;
-		}
-		else if (obj_fishingQTEManager.currentFish == "Shark")
-		{
-			obj_PCunicorn.sharks++;
 		}
 	}
 }

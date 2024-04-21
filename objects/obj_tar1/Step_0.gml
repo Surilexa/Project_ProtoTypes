@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if(mouse_check_button(mb_left))
+if(mouse_check_button(mb_left) && obj_PCunicorn.isBusy == false)
 {
 	x=mouse_x;
 	y=mouse_y;

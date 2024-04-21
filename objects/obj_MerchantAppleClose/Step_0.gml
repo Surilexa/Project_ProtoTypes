@@ -15,9 +15,10 @@ else
 if (mouse_check_button(mb_left)) && (position_meeting(mouse_x, mouse_y, self))
 {
 	//close the merchant window
-	instance_deactivate_layer(layer_get_id("MerchantWindowApple"));
-	instance_deactivate_layer(layer_get_id("MerchantWindowAppleBack"));
+	instance_deactivate_layer(layer_get_id("AppleMerchant_window"));
+	instance_deactivate_layer(layer_get_id("AppleBack"));
 	obj_NPCMerchantApple.merchantWindow = false;
+	obj_PCunicorn.isBusy = false;
 }
 
 

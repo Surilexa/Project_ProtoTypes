@@ -3,8 +3,8 @@
 
 
 //constrain the position
-ymaxpos = 403;
-yminpos = 247;
+ymaxpos = camera_get_view_y(view_get_camera(0))+403;
+yminpos = camera_get_view_y(view_get_camera(0))+247;
 
 
 barGravityAffect = .9;

@@ -18,5 +18,5 @@ image_index = 1;
 merchantWindow = false;
 
 instance_deactivate_layer(layer_get_id("MerchantWindowCoconuts"));
-instance_deactivate_layer(layer_get_id("MerchantWindowCoconutsBack"));
+instance_deactivate_layer(layer_get_id("CoconutBack"));
 

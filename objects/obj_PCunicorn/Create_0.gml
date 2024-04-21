@@ -3,13 +3,10 @@
 
 
 //fishing Variables
+inventory = true;
 isFishing = false;
 fishingBuff = false;
 
-goldFish = 0;
-rainbowTrout = 0;
-catfish = 0;
-sharks = 0;
 
 
 rundist = 64;
@@ -35,13 +32,22 @@ key_int1 =0;
 image_speed = 0;
 
 
-goldCoins = 5;
-
-lemonade = 0;
-watermelonJuice = 0;
+goldCoins = 500;
 gardenTool = 0;
+//renewable resources
+pineapple = 0;
+pineappleJuice = 0;
+watermelonJuice = 0;
 coconut = 0;
 apple = 0;
+watermelon = 0;
+//fish inv
+goldFish = 0;
+carp = 0;
+catfish = 0;
 
 
 isBusy = false;
+
+centerOfScreenY = 0;
+centerOfScreenX = 0;

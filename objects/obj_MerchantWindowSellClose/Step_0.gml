@@ -16,8 +16,9 @@ if (mouse_check_button(mb_left)) && (position_meeting(mouse_x, mouse_y, self))
 {
 	//close the merchant window
 	instance_deactivate_layer(layer_get_id("MerchantWindowCoconuts"));
-	instance_deactivate_layer(layer_get_id("MerchantWindowCoconutsBack"));
+	instance_deactivate_layer(layer_get_id("CoconutBack"));
 	obj_NPCMerchantSell.merchantWindow = false;
+	obj_PCunicorn.isBusy = false;
 }
 
 

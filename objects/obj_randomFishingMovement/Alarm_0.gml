@@ -4,7 +4,6 @@
 
 waitInLocation = false;
 //set new location for fish to move to
-targetYPos = irandom_range(260, 420);
-
+targetYPos = irandom_range(obj_PCunicorn.centerOfScreenY-68, obj_PCunicorn.centerOfScreenY+122);
 
 
