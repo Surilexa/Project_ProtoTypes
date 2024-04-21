@@ -32,7 +32,6 @@ image_yscale = 1;
 isFishing = false;
 fishingBuff = false;
 
-
 currentCam = 0;
 
 

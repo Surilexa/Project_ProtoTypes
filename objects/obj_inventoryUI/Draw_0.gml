@@ -4,8 +4,9 @@
 startx = camera_get_view_x(view_get_camera(0))+171;
 starty = camera_get_view_y(view_get_camera(0))+50;
 
-draw_sprite_ext(spr_appleInv, 0, camera_get_view_x(view_get_camera(0))+5, camera_get_view_y(view_get_camera(0))+ 15, 1.7,1.7,0,c_white,1)
-
+draw_sprite_ext(spr_appleInv, 0, camera_get_view_x(view_get_camera(0))-10, camera_get_view_y(view_get_camera(0))+ 455, 1.7,1.7,0,c_white,1)
+draw_sprite_ext(spr_dialogBox1, 0, camera_get_view_x(view_get_camera(0))+65, camera_get_view_y(view_get_camera(0))+500, .6, .6, 0, c_white, 1);
+draw_text(camera_get_view_x(view_get_camera(0))+74, camera_get_view_y(view_get_camera(0))+503, string(obj_PCunicorn.apple))
 if(inventory)
 {
 	draw_sprite_ext(spr_inventory, 0, camera_get_view_x(view_get_camera(0))+150, camera_get_view_y(view_get_camera(0))-40, 2, 2, 0, c_white, 1)

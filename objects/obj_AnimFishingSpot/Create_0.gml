@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-range = 16;
+range = 24;
 image_speed = .4;
 
 turnOn = true;

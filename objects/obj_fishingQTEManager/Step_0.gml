@@ -5,11 +5,11 @@ randomize()
 if(selectFish)
 {
 	selectFish = false;
-	if(!fishingBuff)
+	if(!obj_PCunicorn.fishingBuff)
 	{
-		rarityOfFish = random_range(0,2);
+		rarityOfFish = random_range(0,1);
 	}
-	else if (fishingBuff)
+	else if (obj_PCunicorn.fishingBuff)
 	{
 		rarityOfFish = random_range(1,2);
 	}

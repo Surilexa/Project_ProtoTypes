@@ -31,6 +31,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MerchantItemLemonade","folderPath":"folders/Objects/TopDownGame2/MerchantBuy/MerchantItemLemonade.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MerchantItemWatermelon","folderPath":"folders/Objects/TopDownGame2/MerchantBuy/MerchantItemWatermelon.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MerchantSell","folderPath":"folders/Objects/TopDownGame2/MerchantSell.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CoconutMerchant","folderPath":"folders/Objects/TopDownGame2/MerchantSell/CoconutMerchant.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Particle Systems/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
@@ -49,7 +50,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TopDownGame2","folderPath":"folders/Sprites/TopDownGame2.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CoconutMerchant","folderPath":"folders/Objects/TopDownGame2/MerchantSell/CoconutMerchant.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -58,6 +58,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"obj_NPCFishingBuff","path":"objects/obj_NPCFishingBuff/obj_NPCFishingBuff.yy",},},
     {"id":{"name":"spr_dirt","path":"sprites/spr_dirt/spr_dirt.yy",},},
     {"id":{"name":"obj_fishingQTEManager","path":"objects/obj_fishingQTEManager/obj_fishingQTEManager.yy",},},
     {"id":{"name":"spr_house2","path":"sprites/spr_house2/spr_house2.yy",},},
