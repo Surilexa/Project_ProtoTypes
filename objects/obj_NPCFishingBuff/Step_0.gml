@@ -26,11 +26,11 @@ if (obj_PCunicorn.key_int1==1)  && (distance_to_object(obj_PCunicorn)<=range) &&
 	{
 		txtbox = 4;
 	}
-	else if(givenQuest == true && fetchItem == "FishingBuff" && obj_PCunicorn.money >= fetchItemAmount)
+	else if(givenQuest == true && fetchItem == "FishingBuff" && obj_PCunicorn.goldCoins >= fetchItemAmount)
 	{
 		txtbox = 2;
 		//take the required resource away from player
-		obj_PCunicorn.money -= fetchItemAmount;
+		obj_PCunicorn.goldCoins -= fetchItemAmount;
 		
 		obj_PCunicorn.fishingBuff = true;
 		

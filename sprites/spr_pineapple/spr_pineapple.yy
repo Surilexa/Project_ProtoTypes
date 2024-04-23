@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "TopDownGame2",
-    "path": "folders/Sprites/TopDownGame2.yy",
+    "name": "FishingQTE",
+    "path": "folders/Sprites/FishingQTE.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

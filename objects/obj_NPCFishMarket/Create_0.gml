@@ -13,10 +13,15 @@ first_time = true;
 
 
 image_speed = 0;
-image_index = 1;
+
 
 merchantWindow = false;
 
-instance_deactivate_layer(layer_get_id("MerchantWindow"));
-instance_deactivate_layer(layer_get_id("MerchantWindowBack"));
+instance_deactivate_layer(layer_get_id("FishMarket_window"));
+instance_deactivate_layer(layer_get_id("FishMarketBack"));
 
+isBuilt = false;
+
+costToBuild = 25;
+
+enableChoice = false;

@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "TopDownGame2",
-    "path": "folders/Objects/TopDownGame2.yy",
+    "name": "FIshingQTE",
+    "path": "folders/Objects/FIshingQTE.yy",
   },
   "parentObjectId": null,
   "persistent": false,

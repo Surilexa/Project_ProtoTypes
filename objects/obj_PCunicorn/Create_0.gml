@@ -32,7 +32,7 @@ key_int1 =0;
 image_speed = 0;
 
 
-goldCoins = 500;
+goldCoins = 25;
 gardenTool = 0;
 //renewable resources
 pineapple = 0;

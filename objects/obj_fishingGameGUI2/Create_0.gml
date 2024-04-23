@@ -4,10 +4,6 @@
 questArray = [];
 numberOfQuestAccepted = 0;
 
-lemonadeCost = 5;
-WatermelonCost = 8;
-coconutCost = 1;
-
 addQuest = function (questName)
 {
 	array_set(questArray, array_length(questArray), questName);

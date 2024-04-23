@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "FIshingQTE",
-    "path": "folders/Objects/FIshingQTE.yy",
+    "name": "SummerDragonAndPonies",
+    "path": "folders/Objects/SummerDragonAndPonies.yy",
   },
   "parentObjectId": null,
   "persistent": false,

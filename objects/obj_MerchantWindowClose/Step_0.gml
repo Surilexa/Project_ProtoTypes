@@ -17,7 +17,7 @@ if (mouse_check_button(mb_left)) && (position_meeting(mouse_x, mouse_y, self))
 	//close the merchant window
 	instance_deactivate_layer(layer_get_id("MerchantWindow"));
 	instance_deactivate_layer(layer_get_id("MerchantWindowBack"));
-	obj_NPCMerchant.merchantWindow = false;
+	obj_NPCDrinkShop.merchantWindow = false;
 }
 
 

@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_NPCMerchant",
+  "name": "obj_SellGoldfish",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "MerchantBuy",
-    "path": "folders/Objects/TopDownGame2/MerchantBuy.yy",
+    "name": "GoldfishMarket",
+    "path": "folders/Objects/FIshingQTE/FishMarket/GoldfishMarket.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_NPCTopDown",
-    "path": "sprites/spr_NPCTopDown/spr_NPCTopDown.yy",
+    "name": "spr_buyResourceBox",
+    "path": "sprites/spr_buyResourceBox/spr_buyResourceBox.yy",
   },
   "spriteMaskId": null,
   "visible": true,

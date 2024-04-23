@@ -7,4 +7,4 @@ image_speed = 0;
 image_index = 0;
 purchaseAmount = 0;
 
-purchaseCost = 8;
+purchaseCost = 6;
