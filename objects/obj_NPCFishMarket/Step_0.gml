@@ -17,6 +17,7 @@ if(txtbox == 1 && mouse_check_button_released(mb_left) && enableChoice)
 	{
 		txtbox = 0;
 		obj_PCunicorn.isBusy = false;
+		enableChoice = false;
 	}
 }
 //canel the dialog

@@ -14,4 +14,8 @@ if(obj_PCunicorn.isFishing && !delay)
 	draw_sprite_ext(spr_fishingProgressBar, 0, obj_movingBar.x + 31, obj_movingBar.baseYPos+133, 2.15, -obj_fishingProgressBar.currentProgress, 0, c_white,1 );
 }
 
-
+if(obj_PCunicorn.fishingBuff)
+{
+	draw_sprite_stretched(spr_fishingBuffIcon, 0,
+		camera_get_view_x(view_camera[0]) + 200, camera_get_view_y(view_camera[0]) +558 , 32, 32);
+}

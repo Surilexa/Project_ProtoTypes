@@ -27,7 +27,7 @@ if(obj_PCunicorn.isFishing)
 		{
 			obj_PCunicorn.carp++;
 		}
-		else if (obj_fishingQTEManager.currentFish == "CatFish")
+		else if (obj_fishingQTEManager.currentFish == "Catfish")
 		{
 			obj_PCunicorn.catfish++;
 		}

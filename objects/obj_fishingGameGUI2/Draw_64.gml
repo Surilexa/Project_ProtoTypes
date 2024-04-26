@@ -22,17 +22,22 @@ draw_text(605,76, "---------------------");
 if(array_contains(questArray, "FishingBuffDragon"))
 {
 	draw_text(605,76 + ((array_get_index(questArray, "FishingBuffDragon") + 1)*20),
-					"Fishing Buff: " + string(obj_NPCFishingBuff.fetchItem) + " " + string(obj_NPCFishingBuff.fetchItemAmount));
+					"Upgrade: " + string(obj_NPCFishingBuff.fetchItemAmount) + " Gold");
 }
 if(array_contains(questArray, "Customer1"))
 {
 	draw_text(605,76 + ((array_get_index(questArray, "Customer1") + 1)*20),
 					"Red " + string(obj_NPCDragonCustomer1.fetchItem) + " " + string(obj_NPCDragonCustomer1.fetchItemAmount));
 }
-
-if(obj_PCunicorn.fishingBuff == true)
+if(array_contains(questArray, "Customer2"))
 {
-	draw_sprite_stretched(spr_fishingBuffIcon,0, 350, 10,56,56);
+	draw_text(605,76 + ((array_get_index(questArray, "Customer2") + 1)*20),
+					"Green " + string(obj_NPCDragonCustomer2.fetchItem) + " " + string(obj_NPCDragonCustomer2.fetchItemAmount));
+}
+if(array_contains(questArray, "Customer3"))
+{
+	draw_text(605,76 + ((array_get_index(questArray, "Customer3") + 1)*20),
+					"Blue " + string(obj_NPCDragonCustomer3.fetchItem) + " " + string(obj_NPCDragonCustomer3.fetchItemAmount));
 }
 
 // END DRAW GUI

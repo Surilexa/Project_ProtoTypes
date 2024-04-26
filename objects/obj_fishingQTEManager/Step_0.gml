@@ -7,11 +7,13 @@ if(selectFish)
 	selectFish = false;
 	if(!obj_PCunicorn.fishingBuff)
 	{
-		rarityOfFish = random_range(0,1);
+		rarityOfFish = irandom_range(0,1);
 	}
 	else if (obj_PCunicorn.fishingBuff)
 	{
-		rarityOfFish = random_range(1,2);
+		show_debug_message("fishing with buff")
+		rarityOfFish = irandom_range(0,2);
+		show_debug_message(string(rarityOfFish))
 	}
 	currentFish = typeOfFish[rarityOfFish];
 	fishSpeed = rarityOfFish;

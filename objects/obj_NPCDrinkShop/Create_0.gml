@@ -21,6 +21,6 @@ instance_deactivate_layer(layer_get_id("DrinkShopBack"));
 
 isBuilt = false;
 
-costToBuild = 50;
+costToBuild = 25;
 
 enableChoice = false;

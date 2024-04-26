@@ -14,7 +14,7 @@ txtbox = 0;
 
 first_time = true;
 
-questName = "Customer1";
+questName = "Customer2";
 
 fetchItemsArray = ["coconut", "pineapple", "watermelon", "goldfish", "carp"];
 

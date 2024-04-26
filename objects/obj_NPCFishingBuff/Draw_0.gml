@@ -4,26 +4,23 @@
 
 draw_self();
 
-if (txtbox==1)
+if(txtbox == 1)
 {
-	draw_sprite_stretched(spr_guibg_blue,0,x-15,y-21,250,45);
-	draw_text(x-10,y-16, "Hello!");
-	draw_text(x-10,y, "I would like $" + string(fetchItemAmount) + " for " + string(fetchItem))
+	draw_sprite_stretched(spr_dialogBox1, 0, x -130, y +116, 400, 105)
+	draw_text(x - 95, y + 132, "Would you like to purchase");
+	draw_text(x - 95, y + 148, "Fishing Upgrade for: " + string(fetchItemAmount) + " Gold Coins?");
+	draw_text(x - 95, y + 180, "    LMB confirm?" + "      RMB cancel");
 }
 if (txtbox==2)
 {
-	draw_sprite_stretched(spr_guibg_blue,0,x-15,y-21,320,45);
-	draw_text(x-10,y-16, "Thank you for the " + string(fetchItem));
-	draw_text(x-10,y, "Reward Fishing Buff for " + string(questCooldown) + " seconds");
+	draw_sprite_stretched(spr_guibg_blue,0,x-105,y+127,265,45);
+	draw_text(x-100,y + 132, "Thank you for the Gold Coins");
+	draw_text(x-100,y + 148, "Reward: Fishing Upgrade");
 }	
 	
 if (txtbox==3)
 {
-	draw_sprite_stretched(spr_guibg_blue,0,x-15,y-5,170,25);
-	draw_text(x-10,y, "Not enough money");
+	draw_sprite_stretched(spr_guibg_blue,0,x-105,y+127,140,25);
+	draw_text(x-100,y+132, "Not enough money");
 }
-if (txtbox==4)
-{
-	draw_sprite_stretched(spr_guibg_blue,0,x-15,y-5,170,25);
-	draw_text(x-10,y, "Rent duration " + string(int64(alarm_get(0)/60)));
-}
+

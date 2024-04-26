@@ -7,9 +7,7 @@ maxHunger = 20;
 
 hunger = 20;
 
-hungerDecreaseRate = 16 * 60;
-
-
+hungerDecreaseRate = 9 * 60;
 
 alarm[0] = hungerDecreaseRate;
 blink = false;

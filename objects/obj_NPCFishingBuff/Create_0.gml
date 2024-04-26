@@ -16,7 +16,7 @@ first_time = true;
 
 questName = "FishingBuffDragon";
 
-fetchItemsArray = ["FishingBuff"]
+fetchItemsArray = ["Fishing Upgrade"]
 
 fetchItemAmount = 0;
 fetchItem = "";
@@ -24,3 +24,7 @@ questReward = 0;
 givenQuest = false;
 
 questCooldown = 90;
+
+FishingUpgrade = false;
+
+enableChoice = false;

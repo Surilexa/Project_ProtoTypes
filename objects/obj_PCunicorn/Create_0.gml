@@ -28,11 +28,10 @@ key_int1 =0;
 
 //resources
 
-
 image_speed = 0;
 
 
-goldCoins = 25;
+goldCoins = 20;
 gardenTool = 0;
 //renewable resources
 pineapple = 0;

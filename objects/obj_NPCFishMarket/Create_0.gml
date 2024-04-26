@@ -22,6 +22,6 @@ instance_deactivate_layer(layer_get_id("FishMarketBack"));
 
 isBuilt = false;
 
-costToBuild = 25;
+costToBuild = 50;
 
 enableChoice = false;
