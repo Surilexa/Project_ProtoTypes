@@ -19,8 +19,15 @@ key_int1 = mouse_check_button_pressed(mb_right);
 }*/
 if(isBusy)
 {
-	obj_tar1.x = x-2;
 	obj_tar1.y = y;
+	if(instance_nearest(x,y,obj_AnimFishingSpot).x > x)
+	{
+		obj_tar1.x = x+2;
+	}
+	else
+	{
+		obj_tar1.x = x-2;
+	}
 }
 
 pd = point_direction(x, y, obj_tar1.x, obj_tar1.y);

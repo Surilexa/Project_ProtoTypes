@@ -22,14 +22,17 @@ if(obj_PCunicorn.isFishing)
 		if(obj_fishingQTEManager.currentFish == "GoldFish")
 		{
 			obj_PCunicorn.goldFish++;
+			instance_create_layer(obj_PCunicorn.x,obj_PCunicorn.y-20,"fish",obj_goldfishSpawn);
 		}
 		else if (obj_fishingQTEManager.currentFish == "Carp")
 		{
 			obj_PCunicorn.carp++;
+			instance_create_layer(obj_PCunicorn.x,obj_PCunicorn.y-20,"fish",obj_carpSpawn);
 		}
 		else if (obj_fishingQTEManager.currentFish == "Catfish")
 		{
 			obj_PCunicorn.catfish++;
+			instance_create_layer(obj_PCunicorn.x,obj_PCunicorn.y-20,"fish",obj_catfishSpawn);
 		}
 	}
 }
