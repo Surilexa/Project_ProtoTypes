@@ -7,4 +7,9 @@ starty = 0
 
 distanceBetweenBoxes = 52;
 
-inventory = true;
+inventory = false;
+
+
+fishingRod = true;
+sword = false;
+pickaxe = false;

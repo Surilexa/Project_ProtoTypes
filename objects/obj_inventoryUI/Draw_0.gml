@@ -111,4 +111,33 @@ if(inventory)
 		draw_text(8*distanceBetweenBoxes+startx+5, starty+3, string(obj_PCunicorn.catfish));
 	}
 }
+else if(inventory == false)
+{
+	draw_sprite_ext(spr_backpackIcon, 0,  camera_get_view_x(view_get_camera(0)),  camera_get_view_y(view_get_camera(0))+5, 1,1, 0, c_white, 1);
+}
 
+if(fishingRod)
+{
+	draw_sprite_ext(spr_HotbarFIshingRod, 1,  camera_get_view_x(view_get_camera(0)) +5,  camera_get_view_y(view_get_camera(0))+90, 1.3,1.3, 0, c_white, 1);
+}
+else
+{
+	draw_sprite_ext(spr_HotbarFIshingRod, 0,  camera_get_view_x(view_get_camera(0)) +5,  camera_get_view_y(view_get_camera(0))+90, 1.2,1.2, 0, c_white, 1);
+}
+
+if(pickaxe)
+{
+	draw_sprite_ext(spr_HotbarFIshingRod, 1,  camera_get_view_x(view_get_camera(0)) +5,  camera_get_view_y(view_get_camera(0))+135, 1.3,1.3, 0, c_white, 1);
+}
+else
+{
+	draw_sprite_ext(spr_HotbarFIshingRod, 0,  camera_get_view_x(view_get_camera(0)) +5,  camera_get_view_y(view_get_camera(0))+135, 1.2,1.2, 0, c_white, 1);
+}
+if(sword)
+{
+	draw_sprite_ext(spr_HotbarFIshingRod, 1,  camera_get_view_x(view_get_camera(0)) +5,  camera_get_view_y(view_get_camera(0))+180, 1.3,1.3, 0, c_white, 1);
+}
+else
+{
+	draw_sprite_ext(spr_HotbarFIshingRod, 0,  camera_get_view_x(view_get_camera(0)) +5,  camera_get_view_y(view_get_camera(0))+180, 1.2,1.2, 0, c_white, 1);
+}

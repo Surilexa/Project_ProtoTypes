@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "FishingQTE",
-    "path": "folders/Sprites/FishingQTE.yy",
+    "name": "UI",
+    "path": "folders/Sprites/FishingQTE/UI.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "FishingQTE",
-    "path": "folders/Sprites/FishingQTE.yy",
+    "name": "UI",
+    "path": "folders/Sprites/FishingQTE/UI.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

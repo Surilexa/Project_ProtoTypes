@@ -3,7 +3,8 @@
 
 
 if (obj_PCunicorn.key_int1==1) && (distance_to_point(mouse_x,mouse_y)<=range &&
-!obj_PCunicorn.isFishing && distance_to_point(obj_PCunicorn.x,obj_PCunicorn.y)<=range && turnOn)
+!obj_PCunicorn.isFishing && distance_to_point(obj_PCunicorn.x,obj_PCunicorn.y)<=range && turnOn 
+&& obj_inventoryUI.fishingRod)
 {
 	obj_fishingQTEManager.startFishing = true;
 }
