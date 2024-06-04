@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-teleportx = 1111;
-teleporty = 999;
+isMapOpen = false;
 
 mouseDown = false;
 
+
+instance_deactivate_layer("TeleportButtons");
+instance_deactivate_layer("MapArt");
 

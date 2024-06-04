@@ -1,9 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_teleportIsland1",
+  "name": "obj_interactiveMapBackground",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_island1Icon",
-    "path": "sprites/spr_island1Icon/spr_island1Icon.yy",
+    "name": "spr_MapBackground",
+    "path": "sprites/spr_MapBackground/spr_MapBackground.yy",
   },
   "spriteMaskId": null,
   "visible": true,
