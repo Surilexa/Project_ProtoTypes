@@ -5,11 +5,13 @@ if(position_meeting(mouse_x, mouse_y, self))
 {
 	image_yscale = 3.4;
 	image_xscale = 3.4;
+	image_index = 1;
 }
 else
 {
 	image_yscale = 3;
 	image_xscale = 3;
+	image_index = 0;
 }
 
 if (mouse_check_button_pressed(mb_left)) && (position_meeting(mouse_x, mouse_y, self) && mouseDown == false)

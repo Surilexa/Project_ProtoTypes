@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"toggleVisibility",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"toggleVisibility",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -13,7 +13,7 @@ rundist = 64;
 walkdist = 8;
 slowdist = 1;
 
-run = 6;
+run = 5;
 walk = 3;
 slow = 1.5;
 

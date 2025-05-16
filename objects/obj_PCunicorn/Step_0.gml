@@ -11,12 +11,6 @@ else if (!isFishing)
 }
 key_int1 = mouse_check_button_pressed(mb_right);
 
-/*if(obj_NPCMerchant.merchantWindow == true || obj_NPCMerchantSell.merchantWindow == true || obj_NPCMerchantApple.merchantWindow == true)
-{
-	//show_debug_message("merchantwindowOn");
-	obj_tar1.x = x;
-	obj_tar1.y = y;
-}*/
 if(isBusy)
 {
 	obj_tar1.y = y;
